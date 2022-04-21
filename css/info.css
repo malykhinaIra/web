@@ -85,6 +85,8 @@ header hr{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.555); 
     margin-bottom: 20px;
+    margin-top: 5px;
+
  }
 
 input{
@@ -237,6 +239,10 @@ hr{
 
 }
 
+.contacts{
+    margin-bottom: 2%;
+}
+
 .feature h2{
     max-width: 690px;
     font-family: 'Manrope', sans-serif;
@@ -328,6 +334,8 @@ footer{
 .subscribe{
     background-color: white;
     width: 800px;
+    height: 75px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -354,8 +362,8 @@ footer{
     text-align: center;
     color:#F5EFEA;
     margin: 0 auto;
-    margin-bottom: 20px;
-    padding-top: 150px;
+    margin-bottom: 40px;
+    padding-top: 130px;
 }
 
 
@@ -436,6 +444,7 @@ footer hr{
          padding: 0;
      }
 
+
     .nav-toggle a{
         width: 72px;
     }
@@ -448,10 +457,10 @@ footer hr{
       display: none;
      }
 
-     .subscribe::placeholder{
-         font-size: 25px;
-         margin-top: 5px;
-     }
+     .border-1 ::placeholder{
+        font-size: 25px;
+        margin-top: 5px;
+    }
 
      .search-1 img{
          width: 35px;
@@ -487,6 +496,14 @@ footer hr{
 
     .hide{
         display: none;
+    }
+
+    .menu {
+        max-width: 50px;
+    }
+
+    .logo a{
+        font-size: 50px;
     }
 }
 
@@ -579,6 +596,11 @@ footer hr{
 
 @media(max-width: 820px){
 
+    
+    .menu{
+        width: 80%;
+    }
+
     .logo a{
         font-size: 40px;
     }
@@ -652,7 +674,7 @@ footer hr{
 
 @media(max-width: 740px){
     .main-img .row{
-        flex-direction: column;
+        flex-direction:column-reverse;
         margin: 0 auto;
     }
 
@@ -673,16 +695,21 @@ footer hr{
 
     #frame{
         width: 95%;
-        height: 300px;
+        height: 250px;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
 
    .button{
        width:80px;
        margin-left: auto;
        margin-right: auto;
-
    }
+
+   .our-features h1, .unique h1, .unique h2{
+    font-size: 25px;
+    line-height: 55px;
+}
 
 }
 
@@ -735,6 +762,7 @@ footer hr{
 
     .border-1 ::placeholder, input{
         font-size: 15px;
+        margin-top: 5px;
     }
 
     .input{
@@ -756,11 +784,6 @@ footer hr{
          width: 40px;
      }
  
-     .our-features h1, .unique h1, .unique h2{
-         font-size: 25px;
-         line-height: 55px;
-     }
- 
      .contacts img{
          width: 35px;
      }
@@ -778,10 +801,6 @@ footer hr{
         width: 85%;
     }
 
-    footer-1{
-        margin-top: 12px;
-        padding: 0 4%;
-    }
 
     .footer-1 a{
         font-size: 9px;
@@ -816,10 +835,11 @@ footer hr{
         width: 300px;
     }
 
-    .footer-1 {
-    margin-top: 12px;
-    padding: 0 4%;
-}
+  
+    .footer-1{
+        margin-top: 17px;
+        padding: 0 4%;
+    }
 
 }
 
@@ -829,10 +849,6 @@ footer hr{
         width: 20px;
     }
 
-    .footer-1 a{
-        font-size: 7.5px;
-    }
-    
     .our-features h1, .unique h1, .unique h2{
         font-size: 18px;
         line-height: 45px;
@@ -873,17 +889,19 @@ footer hr{
         font-size: 15px;
     }
 
-    .footer-1 a{
-        font-size: 7.5px;
-    }
     
 }
 
 @media(max-width: 435px){
 
+    #frame p{
+        margin-top: -30px;
+    }
+
     .our-features h1, .unique h1, .unique h2{
         font-size: 14px;
         line-height: 40px;
+        margin: 0;
     }
     
      .feature img, .feature-1 img{
