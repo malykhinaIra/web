@@ -81,6 +81,11 @@ a{
     padding: 15px;
 }
 
+.special-offer .col-6{
+    width: 40%;
+    margin-left: 6.5%;
+}
+
 .border-1{
     border: 0.2px solid rgba(0, 0, 0, 0.555); ;
     height: 55.55px;
@@ -211,6 +216,10 @@ hr{
 
 }
 
+.icon p{
+    margin-top: 4px;
+}
+
 .price p{
     font-family: 'Manrope', sans-serif;
     font-style: normal;
@@ -328,6 +337,7 @@ footer{
 .subscribe{
     background-color: white;
     width: 800px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -354,8 +364,8 @@ footer{
     text-align: center;
     color:#F5EFEA;
     margin: 0 auto;
-    margin-bottom: 20px;
-    padding-top: 150px;
+    margin-bottom: 40px;
+    padding-top: 130px;
 }
 
 
@@ -472,19 +482,22 @@ footer hr{
       display: none;
      }
 
-     .logo{
-        top: 15px;
-        font-size: 53px;
+     .logo a{
+        font-size: 50px;
      }
 
-     .nav-toggle::placeholder{
-         font-size: 25px;
-         margin-top: 5px;
-     }
+     .border-1 ::placeholder{
+        font-size: 25px;
+        margin-top: 5px;
+    }
 
      .search-1 img{
          width: 35px;
      }
+
+     .menu {
+        max-width: 50px;
+    }
 
 }
 
@@ -587,6 +600,11 @@ footer hr{
         height: auto;
     }
 
+    .scroll{
+        width: 40px;
+        margin: 0 45%;
+    }
+
     .logo a{
         font-size: 40px;
     }
@@ -638,6 +656,11 @@ footer hr{
         width: 150px;
     }
 
+    
+    .menu{
+        width: 80%;
+    }
+
 }
 
 @media(max-width: 760px){
@@ -646,9 +669,6 @@ footer hr{
         height: auto;
     }
 
-    .scroll{
-        width: 40px;
-    }
 }
 
 @media(max-width: 600px){
@@ -708,7 +728,7 @@ footer hr{
 
 
     .logo{
-        margin-top: -2px;
+        margin-top: 7px;
         margin-left: -20px;
     }
 
@@ -743,17 +763,12 @@ footer hr{
         width: 95%;
     }
 
-    .logo{
-        margin-top: -0px;
-        margin-left: -25px;
-    }
-
     .subscribe{
         width: 85%;
     }
 
-    footer-1{
-        margin-top: 12px;
+    .footer-1{
+        margin-top: 16px;
         padding: 0 4%;
     }
 
@@ -791,7 +806,7 @@ footer hr{
     }
 
     .footer-1 {
-        margin-top: 12px;
+        margin-top: 17px;
         padding: 0 4%;
     }
 
@@ -799,7 +814,7 @@ footer hr{
 
 @media (max-width: 490px) {
     .footer-1 a{
-        font-size: 7.5px;
+        font-size: 9px;
     }
 
     .message{
